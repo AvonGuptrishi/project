@@ -16,6 +16,10 @@ Tried to make an arcade game in python using the pygame library.
 - The Gameplay looks something like what is shown below.
 ![Game Screen image](Pictures/gameplay%20screen.png)
 
+- Game Functions that run the game are:
+
+![functions](Pictures/functions%20in%20game%20functions.png)
+
 - Some of the game functions look like this:
     1. Game over screen:
     ```
