@@ -154,7 +154,7 @@ def game_over(screen, box, stats, hood, laser, enemy, clock):
     final_score = int(round(stats.score, -1))
     final_highscore = int(round(stats.high_score, -1))
     congrats = "NO NEW HIGH-SCORE. TRY AGAIN!!"
-    if (final_score >= final_highscore & final_score != 0):
+    if (final_score >= final_highscore):
         congrats = "YOU ACHIEVED A NEW HIGH-SCORE!!"
     congrats_img = hood.dis_font.render(congrats, True, hood.txt_color, game_over_color)
     congrats_img_rect = congrats_img.get_rect(center = (600, 175))
