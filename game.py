@@ -33,6 +33,7 @@ laser = Group()
 stats = GameStats(mainSettings)
 hood = S_BOARD(mainSettings, screen, stats)
 
+# Infinite gameloop
 while True:
     check_events(mainSettings, box, laser, screen)
     if stats.game_state:
